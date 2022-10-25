@@ -5,17 +5,7 @@
 // 161 -> да
 Console.Clear();
 int num;
-int num1;
-int num2;
 Console.Write("Введите пожалуйста число: ");
 num = Convert.ToInt32(Console.ReadLine());
-num1 = num % 7;
-num2 = num % 23;
-if ((num1 == 0) && (num2 == 0))
-{
-    Console.Write("Да");
-}
-else
-{
-    Console.Write("Нет");
-}
+if ((num % 7 == 0) & (num % 23 == 0)) Console.Write($"{num} -> Да");
+else Console.Write($"{num} -> Нет");
