@@ -4,8 +4,7 @@
 // 46 -> нет
 // 161 -> да
 Console.Clear();
-int num;
 Console.Write("Введите пожалуйста число: ");
-num = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 if ((num % 7 == 0) & (num % 23 == 0)) Console.Write($"{num} -> Да");
 else Console.Write($"{num} -> Нет");
