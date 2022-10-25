@@ -27,6 +27,3 @@ else
     if (result == max) Console.Write("Да");
     else Console.Write("Нет");
 }
-
-
-//result = ;
